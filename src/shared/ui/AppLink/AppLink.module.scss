@@ -1,0 +1,15 @@
+.primary {
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.red {
+  color: var(--cancel-color);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

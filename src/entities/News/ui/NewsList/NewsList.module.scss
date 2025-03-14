@@ -1,0 +1,24 @@
+.NewsList {
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  .card {
+    display: inline-flex;
+    align-self: center;
+  }
+
+  .loader {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .row {
+    display: flex;
+    gap: 30px;
+  }
+}

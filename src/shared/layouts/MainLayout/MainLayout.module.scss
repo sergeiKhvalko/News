@@ -1,0 +1,25 @@
+.MainLayout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: var(--navbar-height) 1fr var(--footer-height);
+  grid-template-areas:
+    "header header header"
+    "content content content"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+
+.content {
+  width: 100%;
+  grid-area: content;
+  justify-self: center;
+  overflow-y: scroll;
+}
+
+.footer {
+  grid-area: footer;
+}

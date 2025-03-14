@@ -1,0 +1,14 @@
+@use "reset.scss" as *;
+// @import "fonts/fonts";
+@use "global.scss" as *;
+
+body {
+  min-width: 320px;
+}
+
+.app {
+  background: var(--bg-color);
+  min-height: 100vh;
+  font: var(--font-s);
+  color: var(--text-color);
+}
